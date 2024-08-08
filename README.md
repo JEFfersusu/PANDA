@@ -1,2 +1,2 @@
 # PANDA
-PANDA: An obstacle detection model for ultra-lightweight high-voltage lines
+PANDA:A Partially Adaptive Nanoscale Detection Architecture for High-voltage Line Obstacle Detection
