@@ -51,5 +51,15 @@ yolo task=detect mode=train data=cfg/datasets/HVLOD.yaml model=cfg/models/v8/HVL
 
 ```bash
 yolo task=detect mode=predict source=datasets model=HVLO-YOLO.pt
+
 ```
 
+## 📊 Benchmark Results
+
+### 🛠 High-voltage Line Obstacle Dataset
+
+| Model | Params (M) | FLOPs (G) | mAP50 (%) | mAP50:95 (%) |
+|-------|------------|-----------|-----------|--------------|
+| YOLOv8-n | 3.0 | 8.1 | 84.6 | 63.1 |
+| YOLOv10-n | 2.7 | 8.2 | 82.8 | 62.8 |
+| **HVLO-YOLO** | **1.0** | **2.3** | **89.9** | **67.6** |
