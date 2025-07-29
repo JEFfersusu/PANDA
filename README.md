@@ -64,17 +64,6 @@ yolo task=detect mode=predict source=datasets model=HVLO-YOLO.pt
 | YOLOv10-n | 5.8 | 3.0 | 8.2 | 82.8 | 62.8 |
 | **HVLO-YOLO** | **2.2** | **1.0** | **2.3** | **89.9** | **67.6** |
 
-## 🧠 Model Architecture
-
-HVLO-YOLO introduces three novel modules:
-
-- 🔵 `CP4` - CSP-Partial Convolution with FourGroup
-- 🔴 `PDown` - Partial Convolution DownSampler
-- 🟢 `PDetect` - Partial Convolution Detection Head
-
-<p align="center">
-  <img src="assets/framework.png" width="85%" />
-</p>
 
 ## 📜 Citation
 
