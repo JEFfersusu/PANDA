@@ -1,2 +1,2 @@
-# PANDA
-PANDA:A Partially Adaptive Nanoscale Detection Architecture for High-voltage Line Obstacle Detection
+# HVLO-YOLO
+HVLO-YOLO: An Ultra-Lightweight Detection Model for High-voltage Line Obstacles
