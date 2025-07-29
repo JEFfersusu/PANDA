@@ -6,6 +6,9 @@
 
 ---
 
+**Congratulations! Our MobileMamba has been accepted at the CVPR'25 conference!**
+
+
 ## 🚀 Highlights
 
 - ✅ **Ultra-Lightweight:** Only **1.0M** parameters and **2.2MB** model size.
