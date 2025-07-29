@@ -33,8 +33,6 @@ pip install ultralytics
 
 ---
 
-# 📁 Dataset
-
-## 📦 High-Voltage Line Obstacle Dataset (HVLOD)
+## 📦 High-Voltage Line Obstacle Dataset
 
 **Download from:** [https://aistudio.baidu.com/datasetdetail/223069](https://aistudio.baidu.com/datasetdetail/223069)
