@@ -44,17 +44,12 @@ pip install ultralytics
 ### 1. Training
 
 ```bash
-python train.py --data data/hvlod.yaml --cfg models/hvlo_yolo.yaml --weights '' --batch 8 --epochs 300 --img 640
+yolo task=detect mode=train data=cfg/datasets/data.yaml model=cfg/models/HVLO-YOLO.yaml epochs=300 batch=8
 ```
 
 ### 2. Inference
 
 ```bash
-python detect.py --weights runs/train/hvlo_yolo/weights/best.pt --source data/HVLOD/images/val
+yolo task=detect mode=predict source=datasets model=HVLO-YOLO.pt
 ```
 
-### 3. Evaluation
-
-```bash
-python val.py --weights runs/train/hvlo_yolo/weights/best.pt --data data/hvlod.yaml --img 640
-```
