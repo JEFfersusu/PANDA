@@ -58,7 +58,7 @@ yolo task=detect mode=predict source=datasets model=HVLO-YOLO.pt
 
 ### 🛠 High-voltage Line Obstacle Dataset
 
-| Model | Params (M) | Params (M) | FLOPs (G) | mAP50 (%) | mAP50:95 (%) |
+| Model | Model Siez (MB) | Params (M) | FLOPs (G) | mAP50 (%) | mAP50:95 (%) |
 |-------|------------|------------|-----------|-----------|--------------|
 | YOLOv8-n | 6.3 | 3.0 | 8.1 | 84.6 | 63.1 |
 | YOLOv10-n | 5.8 | 3.0 | 8.2 | 82.8 | 62.8 |
