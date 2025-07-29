@@ -36,3 +36,25 @@ pip install ultralytics
 ## 📦 High-Voltage Line Obstacle Dataset
 
 **Download from:** [https://aistudio.baidu.com/datasetdetail/223069](https://aistudio.baidu.com/datasetdetail/223069)
+
+---
+
+## 🔨 Usage
+
+### 1. Training
+
+```bash
+python train.py --data data/hvlod.yaml --cfg models/hvlo_yolo.yaml --weights '' --batch 8 --epochs 300 --img 640
+```
+
+### 2. Inference
+
+```bash
+python detect.py --weights runs/train/hvlo_yolo/weights/best.pt --source data/HVLOD/images/val
+```
+
+### 3. Evaluation
+
+```bash
+python val.py --weights runs/train/hvlo_yolo/weights/best.pt --data data/hvlod.yaml --img 640
+```
