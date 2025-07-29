@@ -44,7 +44,7 @@ pip install ultralytics
 ### 1. Training
 
 ```bash
-yolo task=detect mode=train data=cfg/datasets/data.yaml model=cfg/models/v8/HVLO-YOLO.yaml epochs=300 batch=8
+yolo task=detect mode=train data=cfg/datasets/HVLOD.yaml model=cfg/models/v8/HVLO-YOLO.yaml epochs=300 batch=8
 ```
 
 ### 2. Inference
