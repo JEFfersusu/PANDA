@@ -29,3 +29,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install ultralytics
+
+---
+
+# 📁 Dataset
+
+## 📦 High-Voltage Line Obstacle Dataset (HVLOD)
+
+**Download from:** [https://aistudio.baidu.com/datasetdetail/223069](https://aistudio.baidu.com/datasetdetail/223069)
