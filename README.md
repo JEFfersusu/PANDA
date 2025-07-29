@@ -6,7 +6,7 @@
 
 ---
 
-**Congratulations! Our MobileMamba has been accepted at the CVPR'25 conference!**
+# **Congratulations! Our HVLO-YOLO has been accepted at the BMVC'25 conference!**
 
 
 ## 🚀 Highlights
