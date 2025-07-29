@@ -8,6 +8,9 @@
 
 ## **Congratulations! Our HVLO-YOLO has been accepted at the BMVC'25 conference!**
 
+> **Abstract:** With the expansion of high-voltage power grids and the increase of environmental complexity, obstacle detection on high-voltage lines has become an important task to ensure the safety of power systems. Traditional methods rely on manual feature extraction, which is difficult to deal with complex environments. Although deep learning methods improve the detection accuracy, the demand for computing resources is too high to meet the requirements of real-time and lightweight. To this end, this paper proposed an ultra-lightweight **High-Voltage Line Obstacle detection model (HVLO-YOLO)**. To achieve a better balance between detection accuracy and computational cost, three specialized lightweight modules are introduced: (1) a CSP-Partial Convolution with FourGroup module that enhances feature extraction efficiency by selectively applying partial convolution and multi-branch group strategies; (2) a Partial Convolution DownSampler module that preserves critical information during spatial resolution reduction through a dual-branch design combining max-pooling and partial convolution; and (3) a Partial Convolution Detection Head module that focuses computational resources on key feature regions through selective lightweight aggregation. These modules collaboratively reduce computational burden, minimize parameter count, and enhance obstacle detection accuracy under complex environments. Extensive experiments conducted on two benchmark datasets demonstrate that HVLO-YOLO achieves competitive detection accuracy while significantly reducing model complexity compared to state-of-the-art models.
+
+
 
 ## 🚀 Highlights
 
