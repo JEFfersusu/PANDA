@@ -15,3 +15,17 @@
 - 🔁 **Generalizable:** Performs competitively on general datasets like COCO.
 
 ---
+
+## 🔧 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/JEFfersusu/HVLO-YOLO.git
+cd HVLO-YOLO
+
+# (Optional) Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
