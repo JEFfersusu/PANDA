@@ -1,0 +1,12 @@
+# HVLO-YOLO Dataset Configuration
+
+path: ../datasets/gyx  # dataset root directory
+train: train/images    # training images (relative to 'path')
+val: val/images        # validation images (relative to 'path')
+test:                  # optional test set
+
+names:
+  0: nest
+  1: trash
+  2: kite
+  3: balloon
