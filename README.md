@@ -63,3 +63,38 @@ yolo task=detect mode=predict source=datasets model=HVLO-YOLO.pt
 | YOLOv8-n | 3.0 | 8.1 | 84.6 | 63.1 |
 | YOLOv10-n | 2.7 | 8.2 | 82.8 | 62.8 |
 | **HVLO-YOLO** | **1.0** | **2.3** | **89.9** | **67.6** |
+
+## 🧠 Model Architecture
+
+HVLO-YOLO introduces three novel modules:
+
+- 🔵 `CP4` - CSP-Partial Convolution with FourGroup
+- 🔴 `PDown` - Partial Convolution DownSampler
+- 🟢 `PDetect` - Partial Convolution Detection Head
+
+<p align="center">
+  <img src="assets/framework.png" width="85%" />
+</p>
+
+## 📜 Citation
+
+If you find this work helpful, please cite:
+
+```bibtex
+@article{your_hvloyolo_2025,
+  title={HVLO-YOLO: An Ultra-Lightweight Detection Model for High-voltage Line Obstacles},
+  author={Pan, Weichao and Wang, Xu and Lv, Chengze and Lin, Zicheng and Wang, Gongrui and Zhang, Xuening and Sun, Yi and Liu, Xingbo},
+  journal={BMVC},
+  year={2025}
+}
+```
+
+## 🙌 Acknowledgements
+
+This project is inspired by the open-source efforts of YOLO, [Ultralytics](https://github.com/ultralytics/ultralytics/tree/main), and PyTorch. We thank all contributors in the community.
+
+## 📬 Contact
+
+For questions, feel free to reach out:
+
+- 📧 Weichao Pan (panweichao01@outlook.com)
