@@ -84,7 +84,7 @@ yolo task=detect mode=predict source=datasets model=HVLO-YOLO.pt
 If you find this work helpful, please cite:
 
 ```bibtex
-@article{your_hvloyolo_2025,
+@article{hvloyolo_2025,
   title={HVLO-YOLO: An Ultra-Lightweight Detection Model for High-voltage Line Obstacles},
   author={Pan, Weichao and Wang, Xu and Lv, Chengze and Lin, Zicheng and Wang, Gongrui and Zhang, Xuening and Sun, Yi and Liu, Xingbo},
   journal={BMVC},
