@@ -9,40 +9,12 @@
 
 
 ## **Congratulations! Our HVLO-YOLO has been accepted at the BMVC'25 conference!**
+**HVLO-YOLO: An Ultra-Lightweight Detection Model for High-voltage Line Obstacles** [BMVC 2025]  
 
-## Authors
+Weichao Pan¹, Xu Wang¹, Chengze Lv¹, Zicheng Lin¹, Gongrui Wang¹, Xuening Zhang², Yi Sun³, Xingbo Liu¹*  
 
-- **Weichao Pan**  
-  Email: [202211107025@stu.sdjzu.edu.cn](mailto:202211107025@stu.sdjzu.edu.cn)  
-  School of Computer and Artificial Intelligence, Shandong Jianzhu University, Jinan, China
+¹Shandong Jianzhu University, ²Harbin Institute of Technology (Shenzhen), ³Ulster University
 
-- **Xu Wang**  
-  Email: [202311102025@stu.sdjzu.edu.cn](mailto:202311102025@stu.sdjzu.edu.cn)  
-  School of Computer and Artificial Intelligence, Shandong Jianzhu University, Jinan, China
-
-- **Chengze Lv**  
-  Email: [202311102015@stu.sdjzu.edu.cn](mailto:202311102015@stu.sdjzu.edu.cn)  
-  School of Computer and Artificial Intelligence, Shandong Jianzhu University, Jinan, China
-
-- **Zicheng Lin**  
-  Email: [202311102026@stu.sdjzu.edu.cn](mailto:202311102026@stu.sdjzu.edu.cn)  
-  School of Computer and Artificial Intelligence, Shandong Jianzhu University, Jinan, China
-
-- **Gongrui Wang**  
-  Email: [202311102051@stu.sdjzu.edu.cn](mailto:202311102051@stu.sdjzu.edu.cn)  
-  School of Computer and Artificial Intelligence, Shandong Jianzhu University, Jinan, China
-
-- **Xuening Zhang**  
-  Email: [yukiZhang0527@outlook.com](mailto:yukiZhang0527@outlook.com)  
-  School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, China
-
-- **Yi Sun**  
-  Email: [sun-y14@ulster.ac.uk](mailto:sun-y14@ulster.ac.uk)  
-  School of Computing, Ulster University, Northern Ireland, United Kingdom
-
-- **Xingbo Liu** *(Corresponding Author)*  
-  Email: [sclxb@mail.sdu.edu.cn](mailto:sclxb@mail.sdu.edu.cn)  
-  School of Computer and Artificial Intelligence, Shandong Jianzhu University, Jinan, China
   
 > **Abstract:** With the expansion of high-voltage power grids and the increase of environmental complexity, obstacle detection on high-voltage lines has become an important task to ensure the safety of power systems. Traditional methods rely on manual feature extraction, which is difficult to deal with complex environments. Although deep learning methods improve the detection accuracy, the demand for computing resources is too high to meet the requirements of real-time and lightweight. To this end, this paper proposed an ultra-lightweight **High-Voltage Line Obstacle detection model (HVLO-YOLO)**. To achieve a better balance between detection accuracy and computational cost, three specialized lightweight modules are introduced: (1) a CSP-Partial Convolution with FourGroup module that enhances feature extraction efficiency by selectively applying partial convolution and multi-branch group strategies; (2) a Partial Convolution DownSampler module that preserves critical information during spatial resolution reduction through a dual-branch design combining max-pooling and partial convolution; and (3) a Partial Convolution Detection Head module that focuses computational resources on key feature regions through selective lightweight aggregation. These modules collaboratively reduce computational burden, minimize parameter count, and enhance obstacle detection accuracy under complex environments. Extensive experiments conducted on two benchmark datasets demonstrate that HVLO-YOLO achieves competitive detection accuracy while significantly reducing model complexity compared to state-of-the-art models.
 
