@@ -45,13 +45,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install ultralytics
 ```
 
----
 
-## 📦 High-Voltage Line Obstacle Dataset
-
-**Download from:** [https://aistudio.baidu.com/datasetdetail/223069](https://aistudio.baidu.com/datasetdetail/223069)
-
----
 
 ## 🔨 Usage
 
